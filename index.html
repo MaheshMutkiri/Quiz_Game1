@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz App</title>
+  </head>
+  <body style="background-image:url('pexels-nickcollins-3006340.jpg');background-repeat: no-repeat;background-size: 1500px 700px;">
+    <div class="quiz-container" id="quiz">
+       <div style="background-color:#732d91;"> <h1 style="text-align: center;color: white;"> Mahesh's Quiz Test</h1></div>
+            <div style="text-align: right;color: #732d91;"> <h5>*Total Questions=20&nbsp;&nbsp;</h5></div>
+      <div class="quiz-header">
+        <h2 id="question">Question text</h2>
+        <ul>
+          <li>
+            <input type="radio" name="answer" id="a" class="answer">
+            <label for="a" id="a_text">Question</label>
+          </li>
+
+          <li>
+            <input type="radio" name="answer" id="b" class="answer">
+            <label for="b" id="b_text">Question</label>
+          </li>
+
+          <li>
+            <input type="radio" name="answer" id="c" class="answer">
+            <label for="c" id="c_text">Question</label>
+          </li>
+
+          <li>
+            <input type="radio" name="answer" id="d" class="answer">
+            <label for="d" id="d_text">Question</label>
+          </li>
+        </ul>
+      </div>
+      <button id="submit">Submit</button>
+      <div id=""results>   
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
