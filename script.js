@@ -39,6 +39,7 @@ const quizData = [
         d: " Dr. B. R. Ambedkar",
         correct: "d",
     }
+    //you can add how many questons you want .
 ];
 
 const quiz = document.getElementById('quiz')
